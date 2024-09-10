@@ -65,12 +65,18 @@ sudo pip install coloredlogs
 sudo pip install sqlitedict
 sudo pip install policyuniverse
 
+#security headers
+pip3 install shcheck
 
 #install apktool
 sudo apt install apktool
 
 #install gobuster
 sudo apt install gobuster
+
+#update nuclei
+nuclei -update
+nuclei -update-templates
 
 #-----------------DIRECTORIES-----------------
 su kali
